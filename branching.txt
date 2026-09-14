@@ -4,6 +4,32 @@
   to all of them. they perform their tasks on that file and 
   merge it with the original file.
 
+  1. Creating a branch :
+  syntax : git branch branch_name
+  Example : git branch feature/navbar
+
+  2. To display all the branches : lists all the branches present
+  Use git branch
+
+  3. To switch between branches :
+  Syntax : git switch branch_name
+  Example : git switch feature/navbar
+
+  Note : Both the branches have different codes or changes and we are switching between them.
+
+  4. Merging Branches :
+  Note : to merge branches it is important to switch or stay on the main branch
+  
+  Scenario 1:
+  there is different no of lines changed in both the branches or there are changes in one branch only..
+
+  Scenario 2:
+  the changes are made on same line in both the branches so conflict occurs.
+
+  Resolving the conflict : 
+  First choose which change to be made like there are three scenarios below.
+  then stage and commit again.
+
   *Conflict*
    If two people perform the changes with same no of lines on 
    the main file then git gets confused which change to accept 
@@ -11,3 +37,5 @@
    1. Accept the change in first file.
    2. Accept the change in second file.
    3. Accept the changes in both the files.
+
+   
