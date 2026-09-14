@@ -1,0 +1,13 @@
+ *Branching*
+  When the main code or file is to be changed by more than
+  one person then seperate copy of the main file is given 
+  to all of them. they perform their tasks on that file and 
+  merge it with the original file.
+
+  *Conflict*
+   If two people perform the changes with same no of lines on 
+   the main file then git gets confused which change to accept 
+   and then it has 3 options :
+   1. Accept the change in first file.
+   2. Accept the change in second file.
+   3. Accept the changes in both the files.
